@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<link rel="icon" href="/favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="description"
+      content="MediTrack is a static educational website that helps diabetes patients learn about diabetes, medication safety, adherence tips, and trusted health resources."
+    />
+    <meta name="robots" content="index, follow" />
+    <title>MediTrack | Diabetes Medication Adherence</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a href="index.html" class="logo" aria-label="MediTrack Home"
+          >💚 MediTrack</a
+        >
+        <button
+          class="menu-toggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="medication.html">Medication</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-padding">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="badge">Welcome to MediTrack</span>
+            <h1>
+              Take Control of Your <span style="color: #00a86b">Diabetes</span>
+            </h1>
+            <p>
+              Your simple guide to understanding diabetes, taking medication
+              safely, and building healthy daily habits.
+            </p>
+            <div class="button-row">
+              <a class="btn primary" href="#learn">Learn More →</a>
+              <a class="btn secondary" href="#resources">Trusted Resources</a>
+            </div>
+          </div>
+          <div
+            class="hero-illustration"
+            aria-label="Diabetes meter illustration"
+          >
+            <div class="meter-card">
+              <span class="meter-value">120</span>
+              <span class="meter-unit">mg/dL</span>
+            </div>
+            <div class="pill-bottle">✚</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding soft-bg">
+        <div class="container">
+          <div class="stats-grid">
+            <article class="mini-card">
+              <span class="icon">🛡️</span>
+              <h3>Stay Healthy</h3>
+              <p>
+                Medication routines and healthy habits can help keep blood sugar
+                under control.
+              </p>
+            </article>
+            <article class="mini-card">
+              <span class="icon">❤️</span>
+              <h3>Prevent Complications</h3>
+              <p>
+                Good diabetes care can reduce the risk of heart, kidney, eye,
+                nerve, and foot problems.
+              </p>
+            </article>
+            <article class="mini-card">
+              <span class="icon">🙂</span>
+              <h3>Live Better</h3>
+              <p>
+                Small daily actions can support energy, confidence, and
+                long-term wellbeing.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding">
+        <div class="container">
+          <div class="section-title center">
+            <h2>Quick Access</h2>
+            <p>Choose what you need first.</p>
+          </div>
+          <div class="card-grid three">
+            <a class="feature-card green" href="#learn"
+              ><span>📘</span>
+              <h3>Learn About Diabetes</h3>
+              <p>Understand causes, symptoms, types, and risk factors.</p>
+              <strong>Explore →</strong></a
+            >
+            <a class="feature-card blue" href="#medication"
+              ><span>💊</span>
+              <h3>Medication Guide</h3>
+              <p>
+                Learn how to take medication safely and avoid common mistakes.
+              </p>
+              <strong>Explore →</strong></a
+            >
+            <a class="feature-card yellow" href="#tips"
+              ><span>💡</span>
+              <h3>Adherence Tips</h3>
+              <p>Practical tips to help you stay consistent every day.</p>
+              <strong>Explore →</strong></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding soft-bg">
+        <div class="container video-highlight">
+          <div class="section-title">
+            <h2>Watch & Learn</h2>
+            <p>
+              Use trusted videos to understand diabetes and healthy living in a
+              simple visual way.
+            </p>
+          </div>
+          <div class="video-grid">
+            <article class="video-card">
+              <h3>What is Diabetes?</h3>
+              <div
+                class="video-frame video-placeholder"
+                role="button"
+                tabindex="0"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="NIDDK: What is Diabetes"
+                aria-label="Play video: NIDDK: What is Diabetes"
+              >
+                <div class="local-video-thumb" aria-hidden="true">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>NIDDK: What is Diabetes</strong
+                  ><small>Educational video</small>
+                </div>
+                <span class="play-btn" aria-hidden="true">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.youtube.com/watch?v=2TWelC6SHr8"
+                target="_blank"
+                rel="noopener"
+                >Can’t play here? Watch on YouTube →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="learn" class="section-padding">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Learn</span>
+            <h2>Understanding Diabetes</h2>
+            <p>
+              Diabetes affects blood sugar regulation. The sections below
+              explain it in simple language with credible sources.
+            </p>
+          </div>
+
+          <div class="info-stack">
+            <article class="info-card">
+              <div>
+                <h3>What is Diabetes?</h3>
+                <p>
+                  Diabetes is a chronic disease that affects how the body turns
+                  food into energy. Food is broken down into glucose, which
+                  enters the bloodstream. Insulin helps move glucose from the
+                  blood into body cells for energy.
+                </p>
+                <p>
+                  In diabetes, the body either does not make enough insulin or
+                  cannot use insulin properly. This causes high blood sugar
+                  levels. Over time, high blood sugar can damage the heart,
+                  blood vessels, eyes, kidneys, and nerves.
+                </p>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.who.int/news-room/fact-sheets/detail/diabetes"
+                    target="_blank"
+                    rel="noopener"
+                    >World Health Organization – Diabetes fact sheet</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">🩸</div>
+            </article>
+
+            <article class="info-card">
+              <div>
+                <h3>Types of Diabetes</h3>
+                <ul>
+                  <li>
+                    <strong>Type 1 diabetes:</strong> The immune system attacks
+                    insulin-producing cells, so the body makes little or no
+                    insulin. People with Type 1 diabetes need insulin every day.
+                  </li>
+                  <li>
+                    <strong>Type 2 diabetes:</strong> The body becomes resistant
+                    to insulin or does not make enough insulin. This is the most
+                    common type of diabetes.
+                  </li>
+                  <li>
+                    <strong>Gestational diabetes:</strong> Diabetes that
+                    develops during pregnancy and can increase future risk of
+                    Type 2 diabetes.
+                  </li>
+                </ul>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+                    target="_blank"
+                    rel="noopener"
+                    >NIDDK – What Is Diabetes?</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">🧬</div>
+            </article>
+
+            <article class="info-card">
+              <div>
+                <h3>Common Symptoms</h3>
+                <ul>
+                  <li>Frequent urination</li>
+                  <li>Increased thirst or hunger</li>
+                  <li>Feeling very tired</li>
+                  <li>Blurred vision</li>
+                  <li>Slow healing wounds</li>
+                  <li>Unexplained weight loss</li>
+                </ul>
+                <p>
+                  Symptoms may appear slowly, especially with Type 2 diabetes.
+                  Some people may not notice symptoms at first, which is why
+                  regular screening matters.
+                </p>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.cdc.gov/diabetes/signs-symptoms/index.html"
+                    target="_blank"
+                    rel="noopener"
+                    >CDC – Diabetes symptoms</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">😓</div>
+            </article>
+
+            <article class="info-card">
+              <div>
+                <h3>Causes and Risk Factors</h3>
+                <p>
+                  The causes depend on the type of diabetes. Type 1 diabetes is
+                  linked to an autoimmune reaction. Type 2 diabetes is strongly
+                  linked to insulin resistance and can be influenced by
+                  lifestyle and family history.
+                </p>
+                <ul>
+                  <li>Family history of diabetes</li>
+                  <li>Being overweight or obese</li>
+                  <li>Physical inactivity</li>
+                  <li>Age and previous gestational diabetes</li>
+                </ul>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.cdc.gov/diabetes/risk-factors/index.html"
+                    target="_blank"
+                    rel="noopener"
+                    >CDC – Diabetes risk factors</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">⚖️</div>
+            </article>
+          </div>
+
+          <div class="section-title compact">
+            <h3>Learn Through Video</h3>
+          </div>
+          <div class="video-grid two">
+            <article class="video-card">
+              <h3>NIDDK: What is Diabetes?</h3>
+              <div
+                class="video-frame video-placeholder"
+                role="button"
+                tabindex="0"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="NIDDK What is Diabetes"
+                aria-label="Play video: NIDDK What is Diabetes"
+              >
+                <div class="local-video-thumb" aria-hidden="true">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>NIDDK What is Diabetes</strong
+                  ><small>Educational video</small>
+                </div>
+                <span class="play-btn" aria-hidden="true">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.youtube.com/watch?v=2TWelC6SHr8"
+                target="_blank"
+                rel="noopener"
+                >Can’t play here? Watch on YouTube →</a
+              >
+            </article>
+            <article class="video-card">
+              <h3>CDC Diabetes Kickstart Videos</h3>
+              <div
+                class="video-frame video-placeholder"
+                role="button"
+                tabindex="0"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="Diabetes education video"
+                aria-label="Play video: Diabetes education video"
+              >
+                <div class="local-video-thumb" aria-hidden="true">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>Diabetes education video</strong
+                  ><small>Educational video</small>
+                </div>
+                <span class="play-btn" aria-hidden="true">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.cdc.gov/diabetes/diabetes-tv/diabetes-kickstart.html"
+                target="_blank"
+                rel="noopener"
+                >Can’t play here? View CDC video series →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="medication" class="section-padding soft-bg">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Medication</span>
+            <h2>Medication Guide</h2>
+            <p>
+              Medication should always be taken as directed by a healthcare
+              professional.
+            </p>
+          </div>
+          <div class="med-grid">
+            <article class="panel large-panel">
+              <h3>How to Take Your Medication Safely</h3>
+              <ol class="number-list">
+                <li>
+                  Take your medication at the same time each day if your doctor
+                  recommends it.
+                </li>
+                <li>
+                  Follow the dose and instructions given by your healthcare
+                  provider.
+                </li>
+                <li>
+                  Do not skip doses, double doses, or stop medication without
+                  medical advice.
+                </li>
+                <li>
+                  Ask a doctor or pharmacist what to do if you miss a dose.
+                </li>
+                <li>Store medication correctly and check expiry dates.</li>
+              </ol>
+              <p class="source">
+                Source:
+                <a
+                  href="https://www.cdc.gov/diabetes/treatment/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >CDC – Diabetes treatment</a
+                >
+              </p>
+            </article>
+            <article class="panel dos">
+              <h3>✅ Do</h3>
+              <ul>
+                <li>Take medication on time.</li>
+                <li>Keep regular clinic follow-ups.</li>
+                <li>Ask about side effects.</li>
+                <li>Check blood sugar as advised.</li>
+              </ul>
+            </article>
+            <article class="panel donts">
+              <h3>❌ Don’t</h3>
+              <ul>
+                <li>Do not share medication.</li>
+                <li>Do not change dose alone.</li>
+                <li>Do not ignore severe side effects.</li>
+                <li>Do not stop treatment because you feel better.</li>
+              </ul>
+            </article>
+            <article class="panel warning">
+              <h3>Possible Side Effects</h3>
+              <p>
+                Some medicines can cause nausea, dizziness, low blood sugar, or
+                stomach upset. Seek medical help if side effects are severe or
+                persistent.
+              </p>
+            </article>
+          </div>
+          <div class="video-grid two top-gap">
+            <article class="resources-card">
+              <h3>Trusted Medication Sources</h3>
+              <ul class="link-list">
+                <li>
+                  <a
+                    href="https://www.who.int/news-room/fact-sheets/detail/diabetes"
+                    target="_blank"
+                    rel="noopener"
+                    >WHO – Diabetes care</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://idf.org/about-diabetes/"
+                    target="_blank"
+                    rel="noopener"
+                    >IDF – About Diabetes</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.cdc.gov/diabetes/treatment/index.html"
+                    target="_blank"
+                    rel="noopener"
+                    >CDC – Treatment</a
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="tips" class="section-padding">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Tips</span>
+            <h2>Stay Consistent, Stay Healthy</h2>
+            <p>
+              No daily medication checklist here — just practical adherence
+              tips.
+            </p>
+          </div>
+          <div class="tips-layout">
+            <article class="panel helpful-tips">
+              <h3>Helpful Tips</h3>
+              <ul class="tip-list">
+                <li>
+                  <span>⏰</span>
+                  <div>
+                    <strong>Set daily reminders.</strong>
+                    <p>
+                      Use phone alarms or calendar reminders to reduce
+                      forgetfulness.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>📍</span>
+                  <div>
+                    <strong>Keep medication visible.</strong>
+                    <p>
+                      Place it somewhere safe but easy to remember, away from
+                      children.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>🍽️</span>
+                  <div>
+                    <strong>Link medicine to a routine.</strong>
+                    <p>
+                      Take medicine with a regular habit, such as breakfast, if
+                      allowed by your doctor.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>🧳</span>
+                  <div>
+                    <strong>Plan when travelling.</strong>
+                    <p>
+                      Carry enough medication and keep prescriptions or clinic
+                      notes when needed.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>📈</span>
+                  <div>
+                    <strong>Track your progress.</strong>
+                    <p>
+                      Record blood sugar, symptoms, and questions for your next
+                      clinic visit.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+              <p class="source">
+                Source:
+                <a
+                  href="https://www.cdc.gov/diabetes/living-with/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >CDC – Living with Diabetes</a
+                >
+              </p>
+            </article>
+            <aside class="motivation-card">
+              <h3>Motivation</h3>
+              <p>“Small steps every day lead to a healthier tomorrow.”</p>
+              <span>💚</span>
+            </aside>
+          </div>
+          <div class="video-grid two top-gap">
+            <article class="resources-card">
+              <h3>More Support</h3>
+              <ul class="link-list">
+                <li>
+                  <a
+                    href="https://www.cdc.gov/diabetes/diabetes-tv/diabetes-kickstart.html"
+                    target="_blank"
+                    rel="noopener"
+                    >CDC – Diabetes Kickstart Video Series</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://idf.org/about-diabetes/"
+                    target="_blank"
+                    rel="noopener"
+                    >IDF – Diabetes information</a
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section-padding soft-bg">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › FAQ</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="faq-list">
+            <details open>
+              <summary>What happens if I miss a dose?</summary>
+              <p>
+                Do not double your dose unless your healthcare provider tells
+                you to. Ask your doctor or pharmacist for instructions that
+                match your medication.
+              </p>
+              <p class="source">
+                Source:
+                <a
+                  href="https://www.cdc.gov/diabetes/treatment/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >CDC – Treatment</a
+                >
+              </p>
+            </details>
+            <details>
+              <summary>Can I stop my medication if I feel better?</summary>
+              <p>
+                No. Feeling better does not always mean diabetes is gone.
+                Stopping medication without advice can cause blood sugar to rise
+                again.
+              </p>
+            </details>
+            <details>
+              <summary>What foods should I avoid?</summary>
+              <p>
+                Focus on a balanced eating plan. Limit sugary drinks, highly
+                processed foods, and excessive refined carbohydrates. A
+                dietitian or healthcare worker can help personalize your plan.
+              </p>
+              <p class="source">
+                Source:
+                <a
+                  href="https://www.cdc.gov/diabetes/healthy-eating/index.html"
+                  target="_blank"
+                  rel="noopener"
+                  >CDC – Healthy Eating</a
+                >
+              </p>
+            </details>
+            <details>
+              <summary>How often should I check my blood sugar?</summary>
+              <p>
+                This depends on your treatment plan. People using insulin may
+                need to check more often. Follow instructions from your clinic.
+              </p>
+            </details>
+            <details>
+              <summary>Where can I find more support?</summary>
+              <p>
+                Use trusted organizations such as WHO, CDC, IDF, and your local
+                health clinic.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" class="section-padding">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Resources</span>
+            <h2>Trusted Health Resources</h2>
+            <p>
+              Use these links to verify information and continue learning from
+              credible organizations.
+            </p>
+          </div>
+          <div class="card-grid three">
+            <article class="source-card">
+              <span>🌍</span>
+              <h3>World Health Organization</h3>
+              <p>Global health facts and diabetes prevention/care guidance.</p>
+              <a
+                href="https://www.who.int/news-room/fact-sheets/detail/diabetes"
+                target="_blank"
+                rel="noopener"
+                >Visit WHO →</a
+              >
+            </article>
+            <article class="source-card">
+              <span>🔵</span>
+              <h3>International Diabetes Federation</h3>
+              <p>
+                Diabetes education, awareness, and global diabetes information.
+              </p>
+              <a
+                href="https://idf.org/about-diabetes/"
+                target="_blank"
+                rel="noopener"
+                >Visit IDF →</a
+              >
+            </article>
+            <article class="source-card">
+              <span>🏥</span>
+              <h3>Centers for Disease Control and Prevention</h3>
+              <p>
+                Diabetes basics, symptoms, prevention, treatment, and self-care.
+              </p>
+              <a
+                href="https://www.cdc.gov/diabetes/"
+                target="_blank"
+                rel="noopener"
+                >Visit CDC →</a
+              >
+            </article>
+          </div>
+          <div class="section-title compact"><h3>Educational Videos</h3></div>
+          <div class="video-grid two">
+            <article class="video-card">
+              <h3>What is Diabetes?</h3>
+              <div
+                class="video-frame video-placeholder"
+                role="button"
+                tabindex="0"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="NIDDK: What is Diabetes"
+                aria-label="Play video: NIDDK: What is Diabetes"
+              >
+                <div class="local-video-thumb" aria-hidden="true">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>What is Diabetes video</strong
+                  ><small>Educational video</small>
+                </div>
+                <span class="play-btn" aria-hidden="true">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.youtube.com/watch?v=2TWelC6SHr8"
+                target="_blank"
+                rel="noopener"
+                >Can’t play here? Watch on YouTube →</a
+              >
+            </article>
+            <article class="video-card">
+              <h3>Diabetes Self-Care Video Series</h3>
+              <div
+                class="video-frame video-placeholder"
+                role="button"
+                tabindex="0"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="Diabetes self care video"
+                aria-label="Play video: Diabetes self care video"
+              >
+                <div class="local-video-thumb" aria-hidden="true">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>Diabetes self care video</strong
+                  ><small>Educational video</small>
+                </div>
+                <span class="play-btn" aria-hidden="true">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.cdc.gov/diabetes/diabetes-tv/diabetes-kickstart.html"
+                target="_blank"
+                rel="noopener"
+                >Can’t play here? View CDC video series →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding soft-bg">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Contact</span>
+            <h2>Get Help & Support</h2>
+            <p>
+              For personal medical decisions, contact a healthcare professional.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <article class="panel">
+              <h3>Contact Us</h3>
+              <p>📧 support@meditrack.com</p>
+              <p>📞 +26777838122</p>
+              <p>📍 University Of Botswana, Botswana</p>
+            </article>
+            <article class="panel">
+              <h3>Important Note</h3>
+              <p>
+                This website is for educational purposes only and does not
+                replace professional medical advice.
+              </p>
+              <p>
+                Always consult your doctor, nurse, pharmacist, or clinic for
+                personal treatment decisions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="disclaimer">
+        ⚠️ This website is for educational purposes only. Always consult a
+        healthcare professional.
+      </div>
+      <div class="container footer-grid">
+        <div>
+          <h3>💚 MediTrack</h3>
+          <p>Helping you manage diabetes for a healthier tomorrow.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="learn.html">Learn</a><a href="medication.html">Medication</a
+          ><a href="tips.html">Tips</a>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <a href="faq.html">FAQ</a><a href="resources.html">Trusted Sources</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div class="social-icons" aria-label="Social media links">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.19 8.44 9.94v-7.03H7.9v-2.91h2.54V9.84c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22C18.34 21.25 22 17.08 22 12.06z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.13C19.53 3.56 12 3.56 12 3.56s-7.53 0-9.4.51A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.13c1.87.51 9.4.51 9.4.51s7.53 0 9.4-.51a3 3 0 0 0 2.1-2.13A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8zm8.7 2.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM12 7.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 2a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 MediTrack. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

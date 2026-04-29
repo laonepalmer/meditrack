@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<link rel="icon" href="/favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      name="description"
+      content="MediTrack is a static educational website that helps diabetes patients learn about diabetes, medication safety, adherence tips, and trusted health resources."
+    />
+    <meta name="robots" content="index, follow" />
+    <title>MediTrack | Learn About Diabetes</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav aria-label="Main navigation" class="navbar container">
+        <a aria-label="MediTrack Home" class="logo" href="index.html"
+          >💚 MediTrack</a
+        >
+        <button
+          aria-expanded="false"
+          aria-label="Open navigation menu"
+          class="menu-toggle"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="medication.html">Medication</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-padding" id="learn">
+        <div class="container">
+          <div class="section-title">
+            <span class="breadcrumb">Home › Learn</span>
+            <h2>Understanding Diabetes</h2>
+            <p>
+              Diabetes affects blood sugar regulation. The sections below
+              explain it in simple language with credible sources.
+            </p>
+          </div>
+          <div class="info-stack">
+            <article class="info-card">
+              <div>
+                <h3>What is Diabetes?</h3>
+                <p>
+                  Diabetes is a chronic disease that affects how the body turns
+                  food into energy. Food is broken down into glucose, which
+                  enters the bloodstream. Insulin helps move glucose from the
+                  blood into body cells for energy.
+                </p>
+                <p>
+                  In diabetes, the body either does not make enough insulin or
+                  cannot use insulin properly. This causes high blood sugar
+                  levels. Over time, high blood sugar can damage the heart,
+                  blood vessels, eyes, kidneys, and nerves.
+                </p>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.who.int/news-room/fact-sheets/detail/diabetes"
+                    rel="noopener"
+                    target="_blank"
+                    >World Health Organization – Diabetes fact sheet</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">🩸</div>
+            </article>
+            <article class="info-card">
+              <div>
+                <h3>Types of Diabetes</h3>
+                <ul>
+                  <li>
+                    <strong>Type 1 diabetes:</strong> The immune system attacks
+                    insulin-producing cells, so the body makes little or no
+                    insulin. People with Type 1 diabetes need insulin every day.
+                  </li>
+                  <li>
+                    <strong>Type 2 diabetes:</strong> The body becomes resistant
+                    to insulin or does not make enough insulin. This is the most
+                    common type of diabetes.
+                  </li>
+                  <li>
+                    <strong>Gestational diabetes:</strong> Diabetes that
+                    develops during pregnancy and can increase future risk of
+                    Type 2 diabetes.
+                  </li>
+                </ul>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+                    rel="noopener"
+                    target="_blank"
+                    >NIDDK – What Is Diabetes?</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">🧬</div>
+            </article>
+            <article class="info-card">
+              <div>
+                <h3>Common Symptoms</h3>
+                <ul>
+                  <li>Frequent urination</li>
+                  <li>Increased thirst or hunger</li>
+                  <li>Feeling very tired</li>
+                  <li>Blurred vision</li>
+                  <li>Slow healing wounds</li>
+                  <li>Unexplained weight loss</li>
+                </ul>
+                <p>
+                  Symptoms may appear slowly, especially with Type 2 diabetes.
+                  Some people may not notice symptoms at first, which is why
+                  regular screening matters.
+                </p>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.cdc.gov/diabetes/signs-symptoms/index.html"
+                    rel="noopener"
+                    target="_blank"
+                    >CDC – Diabetes symptoms</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">😓</div>
+            </article>
+            <article class="info-card">
+              <div>
+                <h3>Causes and Risk Factors</h3>
+                <p>
+                  The causes depend on the type of diabetes. Type 1 diabetes is
+                  linked to an autoimmune reaction. Type 2 diabetes is strongly
+                  linked to insulin resistance and can be influenced by
+                  lifestyle and family history.
+                </p>
+                <ul>
+                  <li>Family history of diabetes</li>
+                  <li>Being overweight or obese</li>
+                  <li>Physical inactivity</li>
+                  <li>Age and previous gestational diabetes</li>
+                </ul>
+                <p class="source">
+                  Source:
+                  <a
+                    href="https://www.cdc.gov/diabetes/risk-factors/index.html"
+                    rel="noopener"
+                    target="_blank"
+                    >CDC – Diabetes risk factors</a
+                  >
+                </p>
+              </div>
+              <div class="round-icon">⚖️</div>
+            </article>
+          </div>
+          <div class="section-title compact">
+            <h3>Learn Through Video</h3>
+          </div>
+          <div class="video-grid two">
+            <article class="video-card">
+              <h3>NIDDK: What is Diabetes?</h3>
+              <div
+                aria-label="Play video: NIDDK What is Diabetes"
+                class="video-frame video-placeholder"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="NIDDK What is Diabetes"
+                role="button"
+                tabindex="0"
+              >
+                <div aria-hidden="true" class="local-video-thumb">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>NIDDK What is Diabetes</strong
+                  ><small>Educational video</small>
+                </div>
+                <span aria-hidden="true" class="play-btn">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.youtube.com/watch?v=2TWelC6SHr8"
+                rel="noopener"
+                target="_blank"
+                >Can’t play here? Watch on YouTube →</a
+              >
+            </article>
+            <article class="video-card">
+              <h3>CDC Diabetes Kickstart Videos</h3>
+              <div
+                aria-label="Play video: Diabetes education video"
+                class="video-frame video-placeholder"
+                data-video-id="2TWelC6SHr8"
+                data-video-title="Diabetes education video"
+                role="button"
+                tabindex="0"
+              >
+                <div aria-hidden="true" class="local-video-thumb">
+                  <span class="thumb-pill thumb-one"></span
+                  ><span class="thumb-pill thumb-two"></span
+                  ><span class="thumb-circle">▶</span
+                  ><strong>Diabetes education video</strong
+                  ><small>Educational video</small>
+                </div>
+                <span aria-hidden="true" class="play-btn">▶</span>
+                <span class="video-hint">Click to play</span>
+              </div>
+              <a
+                class="watch-link"
+                href="https://www.cdc.gov/diabetes/diabetes-tv/diabetes-kickstart.html"
+                rel="noopener"
+                target="_blank"
+                >Can’t play here? View CDC video series →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="disclaimer">
+        ⚠️ This website is for educational purposes only. Always consult a
+        healthcare professional.
+      </div>
+      <div class="container footer-grid">
+        <div>
+          <h3>💚 MediTrack</h3>
+          <p>Helping you manage diabetes for a healthier tomorrow.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <a href="index.html">Home</a><a href="about.html">About</a
+          ><a href="learn.html">Learn</a><a href="medication.html">Medication</a
+          ><a href="tips.html">Tips</a>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <a href="faq.html">FAQ</a><a href="resources.html">Trusted Sources</a
+          ><a href="contact.html">Contact</a>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <div aria-label="Social media links" class="social-icons">
+            <a
+              aria-label="Facebook"
+              href="https://www.facebook.com/"
+              rel="noopener"
+              target="_blank"
+              ><svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.19 8.44 9.94v-7.03H7.9v-2.91h2.54V9.84c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.23.2 2.23.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22C18.34 21.25 22 17.08 22 12.06z"
+                ></path></svg
+            ></a>
+            <a
+              aria-label="YouTube"
+              href="https://www.youtube.com/"
+              rel="noopener"
+              target="_blank"
+              ><svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M23.5 6.2a3 3 0 0 0-2.1-2.13C19.53 3.56 12 3.56 12 3.56s-7.53 0-9.4.51A3 3 0 0 0 .5 6.2 31.2 31.2 0 0 0 0 12a31.2 31.2 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.13c1.87.51 9.4.51 9.4.51s7.53 0 9.4-.51a3 3 0 0 0 2.1-2.13A31.2 31.2 0 0 0 24 12a31.2 31.2 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"
+                ></path></svg
+            ></a>
+            <a
+              aria-label="Instagram"
+              href="https://www.instagram.com/"
+              rel="noopener"
+              target="_blank"
+              ><svg aria-hidden="true" viewbox="0 0 24 24">
+                <path
+                  d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8zm8.7 2.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM12 7.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8zm0 2a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8z"
+                ></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 MediTrack. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
